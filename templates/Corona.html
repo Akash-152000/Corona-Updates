@@ -15,6 +15,14 @@
 			padding-left: 30%;
 			padding-bottom:80px;
 		}
+
+		#div1 {width: 50%; height: 50%; float: left; background: #a5c9fd; }
+		#div2 {width: 50%; height: 50%; float: right; background: linear-gradient(to bottom, #9be89c 0%,#cdf97d 100%); }
+		#div3 {width: 50%; height: 50%; float: left; background: linear-gradient(to bottom, #fe8683 0%,#ff9d9b 100%); }
+		#div4 {width: 50%; height: 50%; float: right;background: linear-gradient(to bottom, #f6ce68 0%,#fda682 100%); }
+
+		.text{padding-left:45%;}
+		.Number{padding-left:50%;}
 	</style>
 </head>
 <body>
@@ -24,10 +32,24 @@
 
 	<div class="Content">
 		<h1 class="Date">{{data}}</h1>
-		<h1>{{dic['Active Cases']}}</h1>
-		<h1>{{dic['Cured / Discharged ']}}</h1>
-		<h1>{{dic['Deaths ']}}</h1>
-		<h1>{{dic['Migrated ']}}</h1>
+
+		<div id="div1">
+			<h1 class="text">Active cases</h1>
+			<h1 class="Number">{{dic['Active Cases']}}</h1>
+		</div>
+		<div id="div2">
+			<h1 class="text">Cured discharged</h1>
+			<h1 class="Number">{{dic['Cured / Discharged ']}}</h1>
+		</div>
+		<div id="div3">
+			<h1 class="text">Deaths</h1>
+			<h1 class="Number">{{dic['Deaths ']}}</h1>
+		</div>
+		<div id="div4">
+			<h1 class="text">Migrated</h1>
+			<h1 class="Number">{{dic['Migrated ']}}</h1>
+		</div>
+
 	</div>
 </body>
 </html>
