@@ -7,3 +7,9 @@ Flask
 BeautifulSoup4
 requests
 ```
+
+### This is what it looks like.
+
+Ignore the front end.
+
+![image](https://github.com/Akash-152000/Corona-Updates/blob/master/Untitled1.png)
