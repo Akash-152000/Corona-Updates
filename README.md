@@ -15,7 +15,7 @@ From a terminal window, change to the local directory where you want to clone yo
 
 Run the below snippet.
 ```
-git clone https://github.com/Akash-152000/Sorting-Algorithm-Visualizer.git
+git clone https://github.com/Akash-152000/Corona-Updates.git
 ```
 ### Prerequisites
 
@@ -25,7 +25,7 @@ Install the required libraries using the below command.
 pip install -r requirements.txt
 ```
 
-run the **.py** file.
+run the **corona.py** file.
 
 ### This is what it looks like.
 
