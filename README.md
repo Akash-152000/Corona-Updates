@@ -7,6 +7,25 @@ Flask
 BeautifulSoup4
 requests
 ```
+## Getting started
+
+Open your terminal
+
+From a terminal window, change to the local directory where you want to clone your repository.
+
+Run the below snippet.
+```
+git clone https://github.com/Akash-152000/Sorting-Algorithm-Visualizer.git
+```
+### Prerequisites
+
+Install the required libraries using the below command.
+
+```
+pip install -r requirements.txt
+```
+
+run the **.py** file.
 
 ### This is what it looks like.
 
